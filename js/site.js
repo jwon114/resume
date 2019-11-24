@@ -573,7 +573,6 @@
 		// Header Navigation
         $('#nav>ul').onePageNav({
             currentClass: 'active',
-            changeHash: true,
             scrollSpeed: 500,
             scrollThreshold: 0.5,
             easing: 'swing'
@@ -765,9 +764,6 @@
         if ($('#map').length > 0) {
             // initialiseGoogleMap();
         }
-
-
-
 
         /** Window Scroll Top Button */
         var $btnScrollTop = $('.btn-scroll-top');

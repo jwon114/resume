@@ -3557,8 +3557,9 @@ body {
 }
 
 .profile-photo img {
-    width: 100%;
+    width: 50%;
     display: block;
+    margin: 0 auto;
 }
 
 .profile-preword {
