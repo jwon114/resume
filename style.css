@@ -3778,6 +3778,18 @@ body {
     }
 }
 
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /**
  * 11.4 - Section Interests
  */
