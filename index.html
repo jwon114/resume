@@ -20,6 +20,9 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
+  <!-- IcoFont -->
+  <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="js/plugins/jquery.bxslider/jquery.bxslider.css">
   <link rel="stylesheet" type="text/css" href="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
@@ -72,9 +75,9 @@
                   <ul class="clearfix">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                 </nav>
 
@@ -131,10 +134,7 @@
             </div>
 
             <div class="section-txt-btn">
-              <p>Hello! I'm Robert Smith. Senior Web Developer specializing in front end development. Experienced with
-                all
-                stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages
-                including JavaScript, SQL, and C. Stng background in project management and customer relations.</p>
+              <p>Hello! I'm James Wong. Full stack Software Developer with a passion for front end development. Well-versed in numerous programming languages including Ruby and JavaScript. Studies in Computer Systems Engineering and work experience in software implementation and customer support.</p>
             </div>
           </div>
         </section>
@@ -165,7 +165,7 @@
                       <span>jQuery</span>
                     </div>
                     <div class="skill">
-                      <i class="icon-reactjs fa-3x"></i> 
+                      <i class="icon-reactjs fa-3x"></i>
                       <span>React</span>
                     </div>
                     <div class="skill">
@@ -192,235 +192,175 @@
         </section>
         <!-- #skills -->
 
-        <section id="experience" class="section section-experience">
+        <section id="projects" class="section section-projects">
           <div class="animate-up">
-            <h2 class="section-title">Work Experience</h2>
-
-            <div class="timeline">
-              <div class="timeline-bar"></div>
-              <div class="timeline-inner clearfix">
-                <div class="timeline-box timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date">2014 - 2016</div>
-                    <h3>PINEAPPLE</h3>
-                    <h4>Full Stack developer</h4>
-
-                    <p>Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as requested by the IT
-                      Manager. Had a specific brief to ensure the websites build for customer’s precisely matched
-                      their requirements.developers and marketers.</p>
-                  </div>
+            <h2 class="section-title">Projects</h2>
+            <p style="text-align: center;">A few projects I created as a Web Development student at General Assembly</p>
+            <div class="grid">
+              <div class="grid-sizer"></div>
+              <div class="grid-item size11">
+                <div class="grid-box">
+                  <figure class="portfolio-figure">
+                    <img src="img/nitrocow_screenshot.png" alt="">
+                    <figcaption class="portfolio-caption">
+                      <div class="portfolio-caption-inner">
+                        <h3 class="portfolio-title">Nitro Cow</h3>
+                        <div class="inline-text">
+                          <p>Website design for a friend's ice cream business</p>
+                        </div>
+                        <div class="btn-group">
+                          <a class="btn-link" href="https://jwon114.github.io/nitrocow/" target="_blank">
+                            <i class="rsicon rsicon-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
                 </div>
-
-                <div class="timeline-box timeline-box-right">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-left">
-                    <span class="arrow"></span>
-
-                    <div class="date">2011 - 2014</div>
-                    <h3>MACROSOOFT</h3>
-                    <h4>Web Developer</h4>
-
-                    <p>I was responsible for working on a range of projects, designing appealing websites and
-                      interacting on a daily basis with graphic designers, back-end developers and marketers.</p>
-                  </div>
+              </div>
+              <div class="grid-item size11">
+                <div class="grid-box">
+                  <figure class="portfolio-figure">
+                    <img src="img/sw_tictactoe_screenshot.png" alt="">
+                    <figcaption class="portfolio-caption">
+                      <div class="portfolio-caption-inner">
+                        <h3 class="portfolio-title">Tic Tac Toe</h3>
+                        <div class="inline-text">
+                          <p>Star Wars themed Tic Tac Toe with audio</p>
+                        </div>
+                        <div class="btn-group">
+                          <a class="btn-link" href="https://jwon114.github.io/sw_tictactoe/" target="_blank">
+                            <i class="rsicon rsicon-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
                 </div>
-
-                <div class="timeline-box timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date">2003 - 2006</div>
-                    <h3>JOOJLE</h3>
-                    <h4>Systems Analyst / Web Developer</h4>
-
-                    <p>Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and tools. Technology
-                      consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server 2005, Stored Procedures & PayPal
-                      Instant Payment Notification.</p>
-                  </div>
+              </div>
+              <div class="grid-item size11">
+                <div class="grid-box">
+                  <figure class="portfolio-figure">
+                    <img src="img/coinFlip_screenshot.png" alt="">
+                    <figcaption class="portfolio-caption">
+                      <div class="portfolio-caption-inner">
+                        <h3 class="portfolio-title">Coin Flip</h3>
+                        <div class="inline-text">
+                          <p>Coin flip game with animation</p>
+                        </div>
+                        <div class="btn-group">
+                          <a class="btn-link" href="https://jwon114.github.io/coinFlip/" target="_blank">
+                            <i class="rsicon rsicon-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
                 </div>
-
-                <div class="timeline-box timeline-box-right">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-left">
-                    <span class="arrow"></span>
-
-                    <div class="date">2004 - 2008</div>
-                    <h3>IBBBM</h3>
-                    <h4>Webmaster / Web Developer</h4>
-
-                    <p>Developed, managed, operated and promoted an Internet business.Handled customer support
-                      issues.Planned and managed business finances.</p>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date">2003 - 2004</div>
-                    <h3>HEADBOOK</h3>
-                    <h4>Intern</h4>
-
-                    <p>This was beginning of my career. Developed, managed, operated and promoted an Internet
-                      business.Handled customer support issues.</p>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-right">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-left">
-                    <span class="arrow"></span>
-
-                    <div class="date">2000 - 2003</div>
-                    <h3>UBEAR</h3>
-                    <h4>Taxi Driver</h4>
-
-                    <p>Driving from point A to point B and if necessary to point C and sometimes even to point R and
-                      point S. I was known as experienced driver. Once my passenger who was a web developer told
-                      me about his job and I have made my decision at that moment to became a developer.</p>
-                  </div>
+              </div>
+              <div class="grid-item size11">
+                <div class="grid-box">
+                  <figure class="portfolio-figure">
+                    <img src="img/movies_app_screenshot.png" alt="">
+                    <figcaption class="portfolio-caption">
+                      <div class="portfolio-caption-inner">
+                        <h3 class="portfolio-title">Movie Search App</h3>
+                        <div class="inline-text">
+                          <p>Search movies or series using Open Movie Database API</p>
+                        </div>
+                        <div class="btn-group">
+                          <a class="btn-link" href="https://movies-search-app.herokuapp.com/" target="_blank">
+                            <i class="rsicon rsicon-link"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <!-- #experience -->
-
-        <section id="education" class="section section-education">
-          <div class="animate-up">
-            <h2 class="section-title">Education</h2>
-
-            <div class="timeline">
-              <div class="timeline-bar"></div>
-              <div class="timeline-inner clearfix">
-
-                <div class="timeline-box timeline-box-compact timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date"><span>2012 - 2014</span></div>
-                    <h3>Master of Information Technology</h3>
-                    <h4>MIT&T</h4>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-compact timeline-box-right">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-left">
-                    <span class="arrow"></span>
-
-                    <div class="date"><span>2008 - 2012</span></div>
-                    <h3>Bachelor Computer Engineering</h3>
-                    <h4>Harwarg Universitey</h4>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-compact timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date"><span>2007 - 2008</span></div>
-                    <h3>Certificate for courses of Computer Science</h3>
-                    <h4>Stanfoorb Universitey</h4>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-compact timeline-box-right">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-left">
-                    <span class="arrow"></span>
-
-                    <div class="date"><span>2007 - 2008</span></div>
-                    <h3>1 week Courses of Information Systems</h3>
-                    <h4>Oxforz Universitey</h4>
-                  </div>
-                </div>
-
-                <div class="timeline-box timeline-box-compact timeline-box-left">
-                  <span class="dot"></span>
-
-                  <div class="timeline-box-inner animate-right">
-                    <span class="arrow"></span>
-
-                    <div class="date"><span>2006 - 2007</span></div>
-                    <h3>Software Engineering</h3>
-                    <h4>Sordonne University</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- #education -->
 
         <section id="interests" class="section section-interests">
           <div class="animate-up">
             <h2 class="section-title">My Interests</h2>
 
             <div class="section-box">
-              <p>I have a keen interest in photography. I was vice-president of the photography club during my time at
-                university,
-                and during this period I organised a number of very successful exhibitions and events both on and off
-                campus.
-                <br />I also play the piano to grade 8 standard.</p>
+              <p>I have a keen interest in playing badminton socially and competitively. I am intrigued by computers,
+                video games and all things technology. I coached junior badminton players at my local club and at
+                representative level. My interest in teaching and mentorship led to a part-time teaching assistant role
+                at General Assembly's Coding 101 course for students new to web development.
+              </p>
 
               <ul class="interests-list">
                 <li>
-                  <i class="map-icon map-icon-bicycling"></i>
-                  <span>Bicycling</span>
+                  <i class="icofont-badminton-birdie"></i>
+                  <span>Badminton</span>
                 </li>
                 <li>
-                  <i class="map-icon map-icon-movie-theater"></i>
-                  <span>Watch Movies</span>
+                  <i class="icofont-basketball"></i>
+                  <span>Basketball</span>
                 </li>
                 <li>
-                  <i class="map-icon map-icon-ice-skating"></i>
-                  <span>Skating</span>
+                  <i class="icofont-rugby"></i>
+                  <span>Rugby</span>
                 </li>
                 <li>
-                  <i class="map-icon map-icon-shopping-mall"></i>
-                  <span>Shopping</span>
+                  <i class="icofont-dumbbell"></i>
+                  <span>Fitness</span>
                 </li>
                 <li>
-                  <i class="map-icon map-icon-tennis"></i>
-                  <span>Playing Tennis</span>
+                  <i class="icofont-game-controller"></i>
+                  <span>Video Games</span>
                 </li>
                 <li>
-                  <i class="map-icon map-icon-bowling-alley"></i>
-                  <span>Playing Bowling</span>
-                </li>
-                <li>
-                  <i class="map-icon map-icon-swimming"></i>
-                  <span>Swimming</span>
+                  <i class="icofont-hat-alt"></i>
+                  <span>Teaching and Mentorship</span>
                 </li>
               </ul>
             </div>
           </div>
         </section>
         <!-- #interests -->
+
+        <section id="contact" class="section section-contact">
+          <div class="animate-up">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-box" style="text-align: center;">
+              <h3>Feel free to contact me on LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/james-t-wong/" target="_blank">
+                <i class="fa fa-linkedin-square fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- #contact -->
+
         <!-- END: PAGE CONTENT -->
 
       </div>
       <!-- .container -->
     </div>
     <!-- .content -->
+
+    <footer class="footer">
+      <div class="footer-social">
+        <ul class="social">
+          <li>
+            <a class="ripple-centered" href="https://www.linkedin.com/in/james-t-wong/" target="_blank">
+              <i class="rsicon rsicon-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="ripple-centered" href="https://github.com/jwon114" target="_blank">
+              <i class="rsicon rsicon-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- .footer -->
   </div>
   <!-- .wrapper -->
 
