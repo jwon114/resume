@@ -87,6 +87,9 @@
 .rsicon-linkedin:before {
     content: "\e60b";
 }
+.rsicon-linkedin-square:before {
+    content: "\f08c";
+}
 .rsicon-twitter:before {
     content: "\e60c";
 }
