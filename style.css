@@ -3821,7 +3821,7 @@ body {
 
 .skills-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -3851,7 +3851,6 @@ body {
     width: 74px;
     height: 74px;
     display: inline-block;
-    border: 1px solid #d7dbde;
     position: relative;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
